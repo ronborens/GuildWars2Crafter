@@ -3,7 +3,8 @@ import psycopg2
 
 
 def connect_to_database():
-    return psycopg2.connect(dbname="GW2 Item Crafter", user="postgres", password="pass", host="localhost")
+    # change to connect your db
+    return psycopg2.connect(dbname="", user="", password="", host="")
 
 
 def fetch_recipe_ids():
